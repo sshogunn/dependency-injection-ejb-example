@@ -1,4 +1,4 @@
-package com.wktransportservices.email.rest;
+package com.epam.trainings.di.ejb.rest;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;

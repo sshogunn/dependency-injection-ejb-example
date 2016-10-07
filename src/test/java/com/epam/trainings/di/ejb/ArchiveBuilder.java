@@ -1,4 +1,4 @@
-package com.wktransportservices.email;
+package com.epam.trainings.di.ejb;
 
 import org.jboss.shrinkwrap.api.Archive;
 import org.jboss.shrinkwrap.api.ShrinkWrap;
@@ -9,8 +9,8 @@ import org.wildfly.swarm.undertow.WARArchive;
 import java.io.File;
 
 
-public class ArchiveBuilder {
-    public Archive buildArchive() throws Exception {
+class ArchiveBuilder {
+    Archive buildArchive() throws Exception {
         final WARArchive warArchive = ShrinkWrap.create(WARArchive.class);
 
         File[] dependenciesFiles = Maven.resolver()
@@ -21,7 +21,7 @@ public class ArchiveBuilder {
             warArchive.addAsLibraries(dependenciesFiles);
         }
 
-        warArchive.addPackages(true, "com.wktransportservices.email");
+        warArchive.addPackages(true, "com.epam.trainings.di.ejb");
         return warArchive;
     }
 }

@@ -1,4 +1,4 @@
-package com.wktransportservices.email.rest;
+package com.epam.trainings.di.ejb.rest;
 
 import javax.ws.rs.core.Application;
 import javax.ws.rs.ApplicationPath;

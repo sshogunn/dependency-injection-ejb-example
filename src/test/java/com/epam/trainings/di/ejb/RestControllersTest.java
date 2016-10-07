@@ -1,6 +1,6 @@
-package com.wktransportservices.email;
+package com.epam.trainings.di.ejb;
 
-import com.wktransportservices.email.rest.RestApplicationActivator;
+import com.epam.trainings.di.ejb.rest.RestApplicationActivator;
 import org.jboss.arquillian.container.test.api.Deployment;
 import org.jboss.arquillian.container.test.api.RunAsClient;
 import org.jboss.arquillian.junit.Arquillian;
