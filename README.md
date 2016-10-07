@@ -1,0 +1,1 @@
+mvn -Dversion.artifact=1.0.0 -Dswarm.project.stage=development test
