@@ -34,7 +34,7 @@ public class RestControllersTest {
     @InSequence(1)
     @RunAsClient
     public void doGetMessage() throws Exception {
-        String urlToBeUsed = deploymentURL.toString() + RESOURCE_PREFIX + "/1.0/email/message/";
+        String urlToBeUsed = deploymentURL.toString() + RESOURCE_PREFIX + "/1.0/fighters/";
         given()
                 .accept(MediaType.APPLICATION_JSON)
                 .get(urlToBeUsed)
